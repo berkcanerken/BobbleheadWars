@@ -434,6 +434,70 @@ Transform:
   m_Father: {fileID: 217497880}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &274445822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274445824}
+  - component: {fileID: 274445823}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &274445823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274445822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457559cc3b953754f9fb4e8c8a5c304c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1924736847272217712}
+  spawnPoints:
+  - {fileID: 1185789228}
+  - {fileID: 1861311146}
+  - {fileID: 210998054}
+  - {fileID: 100916885}
+  - {fileID: 811350865}
+  - {fileID: 1371961558}
+  - {fileID: 354674484}
+  - {fileID: 1342120645}
+  - {fileID: 1059838477}
+  - {fileID: 1942420714}
+  - {fileID: 1565584068}
+  - {fileID: 268430198}
+  alien: {fileID: 1697094040}
+  maxAliensOnScreen: 12
+  totalAliens: 12
+  minSpawnTime: 0
+  maxSpawnTime: 3
+  aliensPerSpawn: 1
+--- !u!4 &274445824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274445822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.56054, y: -7.116871, z: 46.58341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &354674484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,6 +1538,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e760c70c40f3264494b6bed9d9f2efb, type: 3}
+--- !u!1 &1697094040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5285710919305228714, guid: 2e760c70c40f3264494b6bed9d9f2efb, type: 3}
+  m_PrefabInstance: {fileID: 1697094039}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1728602834
 PrefabInstance:
   m_ObjectHideFlags: 0
