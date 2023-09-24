@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88783f435facd5042882c99258438f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1924736848833746181, guid: 0fdc286f5c090824597f760ea250a749, type: 3}
   navigationUpdate: 0.5
 --- !u!1001 &376302963390649358
 PrefabInstance:
