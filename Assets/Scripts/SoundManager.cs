@@ -29,7 +29,9 @@ public class SoundManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
         AudioSource[] sources = GetComponents<AudioSource>();
+
         foreach (AudioSource source in sources)
         {
             if (source.clip == null)
@@ -45,4 +47,10 @@ public class SoundManager : MonoBehaviour
     {
         
     }
+
+    public void PlayOneShot(AudioClip clip)
+    {
+        soundEffectAudio.PlayOneShot(clip);
+    }
+
 }
