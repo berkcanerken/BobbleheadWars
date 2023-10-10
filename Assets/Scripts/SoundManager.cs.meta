@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: a17761261be9e594da3500fd76bb64cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gunFire: {fileID: 8300000, guid: 5601eca1dfa29004bb6fa92fb60c7feb, type: 3}
+  - upgradedGunFire: {fileID: 8300000, guid: 8e48e9181723f0c4c9c881d2bfc0fa03, type: 3}
+  - hurt: {instanceID: 0}
+  - alienDeath: {instanceID: 0}
+  - marineDeath: {instanceID: 0}
+  - victory: {instanceID: 0}
+  - elevatorArrived: {instanceID: 0}
+  - powerUpPickup: {instanceID: 0}
+  - powerUpAppear: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
