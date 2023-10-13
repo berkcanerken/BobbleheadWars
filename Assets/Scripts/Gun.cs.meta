@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - bulletPrefab: {fileID: 1905903079259852704, guid: 9de6a2847d798e443b321ffc719bdb41, type: 3}
   - launchPosition: {fileID: 1924736848833746181, guid: 0fdc286f5c090824597f760ea250a749, type: 3}
-  executionOrder: 0
+  executionOrder: 100
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 
