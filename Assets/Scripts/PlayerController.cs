@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     public float timeBetweenHits = 2.5f;
     private bool isHit = false;
     private float timeSinceHit = 0;
-    private int hitNumber = -1;
+    private int hitNumber = -8;
     public Rigidbody marineBody;
     private bool isDead = false;
     private DeathParticles deathParticles;

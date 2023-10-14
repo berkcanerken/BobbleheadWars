@@ -484,6 +484,7 @@ MonoBehaviour:
   gun: {fileID: 424038074}
   upgradeMaxTimeSpawn: 7.5
   deathFloor: {fileID: 211243131}
+  arenaAnimator: {fileID: 1728602835}
 --- !u!4 &274445824
 Transform:
   m_ObjectHideFlags: 0
@@ -499,6 +500,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &284589784 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 178572741950346829, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+  m_PrefabInstance: {fileID: 1728602834}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &354674484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,6 +2047,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400046, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.000006830189
+      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
       propertyPath: m_Controller
       value: 
@@ -2127,6 +2141,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 19725e6c81dff6245b836fc020d70cf9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+--- !u!95 &1728602835 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+  m_PrefabInstance: {fileID: 1728602834}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1789867768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +2252,38 @@ Transform:
   m_Father: {fileID: 217497880}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1875402369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+  m_PrefabInstance: {fileID: 1728602834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1875402371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875402369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25015aec19bf56241bce3bfef998fdf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1924736847272217712}
+  elevator: {fileID: 284589784}
+--- !u!135 &1875402372
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875402369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 1.65
+  m_Center: {x: 0, y: 0.22, z: 0}
 --- !u!1 &1942420714
 GameObject:
   m_ObjectHideFlags: 0
