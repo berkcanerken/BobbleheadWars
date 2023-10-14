@@ -13,6 +13,7 @@ public class Alien : MonoBehaviour
     private float navigationTime = 0;
     public Rigidbody head;
     public bool isAlive = true;
+    private DeathParticles deathParticles;
 
 
     // Start is called before the first frame update
@@ -65,8 +66,22 @@ public class Alien : MonoBehaviour
 
         head.GetComponent<SelfDestruct>().Initiate();
 
+        if (deathParticles)
+        {
+            deathParticles.transform.parent = null;
+            deathParticles.Activate();
+        }
+
         Destroy(gameObject);
     }
 
+    public DeathParticles GetDeathParticles()
+    {
+        if (deathParticles == null)
+        {
+            deathParticles = GetComponentInChildren<DeathParticles>();
+        }
+        return deathParticles;
+    }
 
 }
